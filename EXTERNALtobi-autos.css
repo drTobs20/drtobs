@@ -1,0 +1,799 @@
+.nav{
+	width: 1353px;
+	background-color: black;
+	margin-left: -10px;
+	margin-top: -10px;
+	position: fixed;
+	margin-top: -30px;
+	padding-top: 30px;
+	height: 35px;
+}
+.social1{
+		margin-left: 380px;
+	}
+	.social2{
+		margin-left: 150px;
+	}
+	.social3{
+		margin-left: 150px;
+	}																													
+	.social4{
+		margin-left: 150px;
+	}
+	.header{
+	color: white;
+	background-color: darkred;
+	/*font-size: 50px;*/
+	padding-left: 50px;
+	width: 1353px;
+	margin-left: -10px;
+	margin-top: 35px;
+	height: 80px;
+	position: fixed;
+	/*animation: blink 1s linear infinite;*/
+	/*z-index: 12;*/
+	/*animation: fadein 2s ease-in-out infinite;*/
+	}
+	.blinks{
+		font-size: 20px;
+		margin-top: 10px;
+		margin-left: 30px;
+	}
+	.blinks2{
+		font-size: 40px;
+		margin-top: -60px;
+		margin-left: -5px;
+		animation: blink 2s linear infinite;
+	}
+	@keyframes blink{
+		0%{
+			opacity: 0;
+			color: orange;
+		}
+		50%{
+			opacity: 1;
+			color: goldenrod;
+		}
+		100%{
+			opacity: 0;
+			color: white;
+		}
+	}
+	.contact{
+		color: yellow;
+		margin-left: 1000px;
+		font-size:20px;
+		/*margin-top: 5000px;*/
+		font-family: sans-serif;
+		text-decoration: none;
+	}
+	a:hover{
+		color: green;
+	}
+	.animate{
+		height: 580px;
+		background-size: 25px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: fixed;
+		margin-left: 180px;
+		margin-top: -60px;
+		animation: change 15s infinite step-end;
+	}
+	@keyframes change{
+		0%
+		{
+			background-image: url(./images/iwantcar-en.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/iwantbus-en.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/iwantengin-en.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/iwantexarmy-en.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/iwantpart-en.PNG);
+		}
+		100%
+		{
+			background-image: url(./images/iwantstruck-en.JPG);
+		}
+	}
+	.dealer{
+		margin-top: 20px;
+		margin-left: -20px;
+		padding-left: 420px;
+		background-color: darkred;
+		width: 943px;
+		color: white;
+		height: 120px;
+		font-size: 50px;
+		/*font-family: fantasy;*/
+		font-weight: bold;
+	}
+	.tok{
+		margin-top: -100px;
+		padding-left: 500px;
+		color: white;
+		font-size: 30px;
+	}
+	.carimage{
+		width: 100%;
+		margin-top: 120px;
+	}
+	.carvideo{
+		width: 1340px;
+		height: 1000px;
+	}
+	.log{
+		width: 100%;
+		/*margin-left: 220px;*/
+		margin-top: 100px;
+	}
+
+	.vehicle{
+		padding-left: 500px;
+		font-size: 70px;
+		color: navy;
+	}
+	.animate2{
+		height: 2500px;
+		/*width: 4000px;*/
+		background-size: 1500px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		/*padding-left: 300px;*/
+
+		/*margin-left: 200px;*/
+		animation: change2 30s infinite step-end;
+	}
+	@keyframes change2{
+		0%
+		{
+			background-image: url(./images/car1.JPG);
+		}
+		10%
+		{
+			background-image: url(./images/car2.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/car3.JPG);
+		}
+		30%
+		{
+			background-image: url(./images/car4.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/car5.JPG);
+		}
+		50%
+		{
+			background-image: url(./images/car6.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/car7.JPG);
+		}
+		70%
+		{
+			background-image: url(./images/car8.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/car9.JPG);
+		}
+		90%
+		{
+			background-image: url(./images/car10.JPG);
+		}
+		100%
+		{
+			background-image: url(./images/car11.JPG);
+		}
+	}
+	.fairly{
+		padding-left: 500px;
+		font-size: 70px;
+		margin-top: -700px;
+		color: red;
+	}
+	.animate3{
+		height: 2500px;
+		margin-top: 200px;
+		/*margin-left: 1000px;*/
+		background-size: 1500px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change3 30s infinite step-end;
+	}
+	@keyframes change3{
+		0%
+		{
+			background-image: url(./images/car11.JPG);
+		}
+		10%
+		{
+			background-image: url(./images/car10.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/car9.JPG);
+		}
+		30%
+		{
+			background-image: url(./images/car8.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/car7.JPG);
+		}
+		50%
+		{
+			background-image: url(./images/car6.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/car5.JPG);
+		}
+		70%
+		{
+			background-image: url(./images/car4.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/car3.JPG);
+		}
+		90%
+		{
+			background-image: url(./images/car2.JPG);
+		}
+		100%
+		{
+			background-image: url(./images/car1.JPG);
+		}
+	}
+	.fairly2{
+		padding-left: 500px;
+		font-family: sans-serif;
+		margin-top: -850px;
+		font-size: 20px;
+	}
+	.ending{
+		background-color: darkred;
+		height: 200px;
+		width: 803px;
+		margin-left: -20px;
+		color: white;
+		font-family: sans-serif;
+		font-size: 20px;
+		padding-top: 20px;
+		padding-left: 560px;
+		/*margin-bottom: -20px;*/
+		margin-top: 900px;
+	}
+
+@media (max-width: 550px){
+	.nav{
+		width: 100%;
+		/*background-color: green;*/
+		margin-left: -10px;
+		margin-top: -10px;
+		/*position: fixed;*/
+		/*margin-top: -30px;*/
+		padding-top: 5px;
+		height: 60px;
+	}
+	.social1{
+		margin-bottom: 440px;
+		margin-top: -28px;
+		margin-left: 50px;
+		width: 58px;
+	}
+	.social2{
+		margin-left: 30px;
+		margin-bottom: 440px;
+		width: 58px;
+	}
+	.social3{
+		margin-left: 30px;
+		margin-bottom: 440px;
+		width: 58px;
+	}
+	.social4{
+		margin-left: 30px;
+		margin-bottom: 440px;
+		width: 58px;
+	}
+	.header{
+	color: white;
+	background-color: darkred;
+	/*font-size: 50px;*/
+	padding-left: 50px;
+	width: 100%;
+	margin-left: -10px;
+	margin-top: 50px;
+	height: 80px;
+	position: fixed;
+	/*animation: blink 1s linear infinite;*/
+	/*z-index: 12;*/
+	/*animation: fadein 2s ease-in-out infinite;*/
+	}
+	.blinks{
+		font-size: 25px;
+		margin-left: -20px;
+	}
+	.blinks2{
+		font-size: 40px;
+		margin-top: -75px;
+		margin-left: -35px;
+	}
+	.contact{
+		margin-left: 170px;
+		font-size: 26px;
+		position: fixed;
+		right: 10%;
+		/*text-align: right;*/
+	}
+	.animate{
+		height: 580px;
+		background-size: 25px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: fixed;
+		margin-left: -5px;
+		margin-top: 40px;
+		margin-bottom: -200px;
+		animation: change 15s infinite step-end;
+		justify-content: center;
+	}
+	.dealer{
+		margin-top: -40px;
+		margin-left: -20px;
+		padding-left: 60px;
+		/*justify-content: center;*/
+		text-align: center;
+		background-color: darkred;
+		width: 100%;
+		color: white;
+		height: 80px;
+		font-size: 28px;
+		/*font-family: fantasy;*/
+		font-weight: bold;
+	}
+	.tok{
+		margin-top: -70px;
+		padding-left: 60px;
+		color: white;
+		font-size: 24px;
+		text-align: center;
+	}
+	.carimage{
+		margin-top: 60px;
+	}
+	.carvideo{
+		width: 100%;
+		height: 300px;
+	}
+	.log{
+		width: 100%;
+		/*margin-left: -20px;*/
+		/*margin-top: 100px;*/
+	}
+	.vehicle{
+		padding-left: 80px;
+		font-size: 40px;
+		color: navy;
+		text-align: left;
+	}
+	.animate2{
+		height: 2500px;
+		/*width: 4000px;*/
+		/*background-size: 1500px;*/
+		background-size: contain;
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		/*padding-left: 300px;*/
+
+		/*margin-left: 200px;*/
+		animation: change2 30s infinite step-end;
+	}
+	.fairly{
+		padding-left: 80px;
+		font-size: 40px;
+		margin-top: -1450px;
+		/*padding-top: -4000px;*/
+		/*margin-bottom: 5000px;*/
+		text-align: left;
+		color: red;
+	}
+	.animate3{
+		height: 2500px;
+		margin-top: 50px;
+		/*margin-left: 1000px;*/
+		background-size: 1500px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change3 35s infinite step-end;
+	}
+	.fairly2{
+		padding-left: 85px;
+		font-family: sans-serif;
+		margin-top: -1600px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.ending{
+		background-color: darkred;
+		height: 180px;
+		width: 100%;
+		margin-left: -20px;
+		color: white;
+		font-family: sans-serif;
+		font-size: 20px;
+		/*padding-top: 2000px;*/
+		/*padding-bottom: 2000px;*/
+		margin-top: 3000px;
+		padding-left: 60px;
+		/*margin-bottom: -30000px;*/
+	}
+
+
+}
+@media (min-width: 551px) and (max-width: 768px){
+	.nav{
+		width: 100%;
+		/*background-color: green;*/
+		margin-left: -10px;
+		margin-top: -10px;
+		/*position: fixed;*/
+		/*margin-top: -30px;*/
+		padding-top: 5px;
+		height: 60px;
+	}
+	.social1{
+		margin-bottom: 440px;
+		margin-top: -28px;
+		margin-left: 135px;
+		width: 58px;
+	}
+	.social2{
+		margin-left: 100px;
+		margin-bottom: 440px;
+		width: 58px;
+	}
+	.social3{
+		margin-left: 100px;
+		margin-bottom: 440px;
+		width: 58px;
+	}
+	.social4{
+		margin-left: 100px;
+		margin-bottom: 440px;
+		width: 58px;
+	}
+	.header{
+	color: white;
+	background-color: darkred;
+	/*font-size: 50px;*/
+	padding-left: 50px;
+	width: 100%;
+	margin-left: -10px;
+	margin-top: 50px;
+	height: 80px;
+	position: fixed;
+	/*animation: blink 1s linear infinite;*/
+	/*z-index: 12;*/
+	/*animation: fadein 2s ease-in-out infinite;*/
+	}
+	.blinks{
+		font-size: 25px;
+		margin-left: -20px;
+	}
+	.blinks2{
+		font-size: 40px;
+		margin-top: -75px;
+		margin-left: -35px;
+	}
+	.contact{
+		margin-left: 170px;
+		font-size: 26px;
+		position: fixed;
+		right: 10%;
+		/*text-align: right;*/
+	}
+	.animate{
+		height: 580px;
+		background-size: 25px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: fixed;
+		margin-left: -5px;
+		margin-top: 40px;
+		margin-bottom: -200px;
+		animation: change 15s infinite step-end;
+		/*justify-content: center;*/
+	}
+	.dealer{
+		margin-top: 70px;
+		margin-left: -20px;
+		padding-left: 80px;
+		/*justify-content: center;*/
+		text-align: center;
+		background-color: darkred;
+		width: 100%;
+		color: white;
+		height: 80px;
+		font-size: 32px;
+		/*font-family: fantasy;*/
+		font-weight: bold;
+	}
+	.tok{
+		margin-top: -70px;
+		padding-left: 85px;
+		color: white;
+		font-size: 28px;
+		text-align: center;
+	}
+	.carimage{
+		margin-top: 60px;
+	}
+	.carvideo{
+		width: 100%;
+		height: 500px;
+	}
+	.log{
+		width: 100%;
+		/*margin-left: -20px;*/
+		/*margin-top: 100px;*/
+	}
+	.vehicle{
+		padding-left: 80px;
+		font-size: 40px;
+		color: navy;
+		text-align: left;
+	}
+	.animate2{
+		height: 2500px;
+		/*width: 4000px;*/
+		/*background-size: 1500px;*/
+		background-size: contain;
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		/*padding-left: 300px;*/
+
+		/*margin-left: 200px;*/
+		animation: change2 30s infinite step-end;
+	}
+	.fairly{
+		padding-left: 80px;
+		font-size: 40px;
+		margin-top: -1450px;
+		/*padding-top: -4000px;*/
+		/*margin-bottom: 5000px;*/
+		text-align: left;
+		color: red;
+	}
+	.animate3{
+		height: 2500px;
+		margin-top: 50px;
+		/*margin-left: 1000px;*/
+		background-size: 1500px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change3 35s infinite step-end;
+	}
+	.fairly2{
+		padding-left: 85px;
+		font-family: sans-serif;
+		margin-top: -1500px;
+		font-size: 25px;
+		text-align: center;
+	}
+	.ending{
+		background-color: darkred;
+		height: 215px;
+		width: 100%;
+		/*margin-left: 10px;*/
+		color: white;
+		font-family: sans-serif;
+		font-size: 25px;
+		/*padding-top: 2000px;*/
+		/*padding-bottom: 2000px;*/
+		margin-top: 3000px;
+		padding-left: 80px;
+		/*margin-bottom: -30000px;*/
+		text-align: center;
+	}
+
+
+}
+@media (min-width: 769px) and (max-width: 1262px){
+	.nav{
+		width: 100%;
+		/*background-color: green;*/
+		margin-left: -10px;
+		margin-top: -10px;
+		/*position: fixed;*/
+		/*margin-top: -30px;*/
+		padding-top: 5px;
+		height: 60px;
+	}
+	.social1{
+		margin-bottom: 440px;
+		margin-top: -28px;
+		margin-left: 150px;
+		width: 62px;
+	}
+	.social2{
+		margin-left: 150px;
+		margin-bottom: 440px;
+		width: 62px;
+	}
+	.social3{
+		margin-left: 150px;
+		margin-bottom: 440px;
+		width: 62px;
+	}
+	.social4{
+		margin-left: 150px;
+		margin-bottom: 440px;
+		width: 62px;
+	}
+	.header{
+	color: white;
+	background-color: darkred;
+	/*font-size: 50px;*/
+	padding-left: 50px;
+	width: 100%;
+	margin-left: -10px;
+	margin-top: 50px;
+	height: 80px;
+	position: fixed;
+	/*animation: blink 1s linear infinite;*/
+	/*z-index: 12;*/
+	/*animation: fadein 2s ease-in-out infinite;*/
+	}
+	.blinks{
+		font-size: 25px;
+		margin-left: -20px;
+	}
+	.blinks2{
+		font-size: 40px;
+		margin-top: -75px;
+		margin-left: -35px;
+	}
+	.contact{
+		margin-left: 170px;
+		font-size: 32px;
+		position: fixed;
+		right: 10%;
+		/*text-align: right;*/
+	}
+	.animate{
+		height: 580px;
+		background-size: 25px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: fixed;
+		margin-left: -5px;
+		margin-top: 40px;
+		margin-bottom: -200px;
+		animation: change 15s infinite step-end;
+		/*justify-content: center;*/
+	}
+	.dealer{
+		margin-top: 220px;
+		margin-left: -20px;
+		padding-left: 30px;
+		/*justify-content: center;*/
+		text-align: center;
+		background-color: darkred;
+		width: 100%;
+		color: white;
+		height: 80px;
+		font-size: 36px;
+		/*font-family: fantasy;*/
+		font-weight: bold;
+	}
+	.tok{
+		margin-top: -70px;
+		padding-left: 85px;
+		color: white;
+		font-size: 32px;
+		text-align: center;
+	}
+	.carimage{
+		margin-top: 60px;
+	}
+	.carvideo{
+		width: 100%;
+		height: 500px;
+	}
+	.log{
+		width: 100%;
+		/*margin-left: -20px;*/
+		/*margin-top: 100px;*/
+	}
+	.vehicle{
+		padding-left: 80px;
+		font-size: 40px;
+		color: navy;
+		text-align: left;
+	}
+	.animate2{
+		height: 2500px;
+		/*width: 4000px;*/
+		/*background-size: 1500px;*/
+		background-size: contain;
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		/*padding-left: 300px;*/
+
+		/*margin-left: 200px;*/
+		animation: change2 30s infinite step-end;
+	}
+	.fairly{
+		padding-left: 80px;
+		font-size: 40px;
+		margin-top: -1050px;
+		/*padding-top: -4000px;*/
+		/*margin-bottom: 5000px;*/
+		text-align: left;
+		color: red;
+	}
+	.animate3{
+		height: 2500px;
+		margin-top: 50px;
+		/*margin-left: 1000px;*/
+		background-size: 1500px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change3 35s infinite step-end;
+	}
+	.fairly2{
+		padding-left: 85px;
+		font-family: sans-serif;
+		margin-top: -1000px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.ending{
+		background-color: darkred;
+		height: 250px;
+		width: 100%;
+		/*margin-left: 10px;*/
+		color: white;
+		font-family: sans-serif;
+		font-size: 30px;
+		/*padding-top: 2000px;*/
+		/*padding-bottom: 2000px;*/
+		margin-top: 3000px;
+		padding-left: 30px;
+		/*margin-bottom: -30000px;*/
+		text-align: center;
+	}
+
+
+}
